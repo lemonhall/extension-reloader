@@ -1,5 +1,4 @@
-﻿<script>
-var id = "ggdkamlnoikhkjdpepblnnkjclkndncp";
+﻿var id = "ggdkamlnoikhkjdpepblnnkjclkndncp";
 function reloadExtension(id) {
     chrome.management.setEnabled(id, false, function() {
         chrome.management.setEnabled(id, true);
@@ -8,4 +7,3 @@ function reloadExtension(id) {
 chrome.browserAction.onClicked.addListener(function(tab) {
     reloadExtension(id);
 });
-</script>

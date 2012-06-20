@@ -1,7 +1,10 @@
 ﻿{
     "name": "Chrome Extension Reloader",
+    "manifest_version": 2,
     "version": "1.0",
-    "background_page": "bg.html",
+    "background": {
+    "scripts": ["bg.js"]
+  	},
     "browser_action": {
         "default_icon": "icon48.png",
         "default_title": "Reload extension"
