@@ -1,4 +1,4 @@
-﻿var id = "ggdkamlnoikhkjdpepblnnkjclkndncp";
+﻿var id = "hlkbmnmakdeokolpekbmikcojmkjninf";
 function reloadExtension(id) {
     chrome.management.setEnabled(id, false, function() {
         chrome.management.setEnabled(id, true);
